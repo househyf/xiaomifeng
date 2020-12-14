@@ -1,0 +1,40 @@
+.addressBox{
+			background-color: white;
+			display: flex;
+			align-items: center;
+			padding:20upx;
+			.default{
+				background-color: rgba(245,218,144,0.3);
+				color:#f9ab1c!important;
+				padding:0 10upx;
+			}
+			.firstName{
+				width:80upx;
+				text-align: center;
+				// margin:20upx;
+				background-color: #C0C0C0;
+				
+				height:80upx;
+				line-height: 80upx;
+				border-radius: 50%;
+				color:white;
+			}
+			.msg{
+				// font-size:24upx;
+				max-width: 500upx;
+				margin:0 20upx;
+				display: flex;
+				flex-direction: column;
+				
+				span{
+					margin:10upx;
+				}
+				.name{
+					font-size:30upx;
+					color:black;
+				}
+				.phone{
+					color:#C0C0C0;
+				}
+			}
+			}
